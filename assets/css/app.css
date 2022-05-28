@@ -5142,8 +5142,8 @@ _:-ms-fullscreen,
 }
 
 .seperator-line {
-    width: 4rem;
-    height: .1rem;
+    width: 3rem;
+    height: .2rem;
     background: #fff
 }
 
@@ -6130,4 +6130,19 @@ _:-ms-fullscreen,
 .colors_coated_grey .m-menu .m-menu-inner .social-items a:hover span,
 .colors_coated_grey .options-panel .close-button:hover {
     color: silver !important
+}
+
+@media(max-width:575px) {
+    .mobile .left-content .inner-content::after {
+        background: rgba(0, 0, 0, 10);
+
+    }
+
+    .colorw {
+        color: white;
+    }
+
+    .colorbgw {
+        background: white!important;
+    }
 }
