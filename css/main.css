@@ -2197,6 +2197,10 @@ ul.social-links li:last-child a {
     margin-bottom: 15px;
 }
 
+.owl-dots {
+    display: none;
+}
+
 .clients.owl-carousel .owl-item img {
     display: block;
     width: 100%;

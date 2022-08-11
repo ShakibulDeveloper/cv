@@ -132,7 +132,7 @@
                 r(".testimonials.owl-carousel").owlCarousel({ nav: !1, items: 3, loop: !1, navText: !1, margin: 25, responsive: { 0: { items: 1 }, 480: { items: 1 }, 768: { items: 2 }, 1200: { items: 2 } } }),
                 r(".clients.owl-carousel")
                     .imagesLoaded()
-                    .owlCarousel({ nav: !1, items: 2, loop: !1, navText: !1, margin: 10, autoHeight: !1, responsive: { 0: { items: 2 }, 768: { items: 4 }, 1200: { items: 6 } } }),
+                    .owlCarousel({ nav: !1, items: 2, loop: !1, navText: !1, margin: 10, autoHeight: !1, responsive: { 0: { items: 2 }, 768: { items: 4 }, 1200: { items: 12 } } }),
                 i.magnificPopup({
                     fixedContentPos: !1,
                     delegate: "a.lightbox",
